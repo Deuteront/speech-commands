@@ -9,7 +9,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "fft-js": "^0.0.12",
+    "fourier-transform": "^1.1.2",
     "jsfeat": "^0.0.8",
+    "jsfft": "^0.0.4",
+    "node-wav": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,6 +26,7 @@
     "os": false
   },
   "scripts": {
+    "start2": "set PORT=8000 && npm run start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
